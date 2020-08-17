@@ -41,7 +41,7 @@ function CalcularSalario() {
             "\nSalário Líquido: R$" + ArrayContent[1] +
             "\nImposto de Renda: " + ArrayContent[2] +
             "\n😎";
-        setTimeout(() => { DivEquivoco.style = "opacity:0%" }, 2000)
+        setTimeout(() => { DivEquivoco.style = "opacity:0%" }, 10000)
         var Objeto = { salBrutao: ArrayContent[0], salLiquido: ArrayContent[1], imposto: ArrayContent[2] }
         var JSON = JSON.stringify(Objeto);
         console.log(JSON);
